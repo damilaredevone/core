@@ -1,0 +1,26 @@
+{
+  "name": "@damilaredev/react-components",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "docs": "npm -C docs run dev",
+    "docs:build": "npm -C docs run build",
+    "docs:serve": "npm -C docs run serve",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damilaredevone/react-components.git"
+  },
+  "author": "damilare anjorin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damilaredevone/react-components/issues"
+  },
+  "devDependencies": {
+    "@damilaredev/tsconfig": "^1.5.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.5"
+  }
+}

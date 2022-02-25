@@ -1,0 +1,15 @@
+{
+    "extends": "@damilaredev/tsconfig/tsconfig.web.json",
+    "compilerOptions": {
+        "types": [
+            "vite/client",
+            "vitepress"
+          ]
+    },
+    "include": [
+        "./*.ts",
+        "./.vitepress/**/*.ts",
+        "./.vitepress/**/*.vue"
+    ],
+    "exclude": ["dist", "node_modules"]
+}

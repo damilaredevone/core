@@ -1,0 +1,15 @@
+{
+    "extends": "@damilaredev/tsconfig/tsconfig.web.json",
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@damilaredev/hooks": ["./packages/hooks/index.ts"],
+        }
+    },
+    "exclude": [
+        "**/dist/**",
+        "./packages/hooks/**",
+        "node_modules"
+    ],
+}

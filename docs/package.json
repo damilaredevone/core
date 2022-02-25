@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vitepress --port 3333 --open --host",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "preview": "pnpm run build && serve .vitepress/dist"
+  },
+  "author": "damilare anjorin",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  }
+}
