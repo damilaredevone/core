@@ -2,14 +2,21 @@
     "extends": "@damilaredev/tsconfig/tsconfig.web.json",
     "compilerOptions": {
         "inlineSourceMap": true,
+        "skipLibCheck": true,
         "baseUrl": ".",
         "paths": {
             "@damilaredev/hooks": ["./packages/hooks/index.ts"],
-        }
+            "@damilaredev/components": ["./packages/components/index.ts"],
+        },
+        "types": [
+            "vite/client",
+            "vitest/globals"
+        ]
     },
     "exclude": [
         "**/dist/**",
         "./packages/hooks/**",
+        "./packages/components/**",
         "node_modules"
     ],
 }

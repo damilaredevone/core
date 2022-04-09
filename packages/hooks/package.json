@@ -12,5 +12,10 @@
     "reactjs"
   ],
   "author": "damilare anjorin",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "@damilaredev/utils": ">=0.5.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
 }
