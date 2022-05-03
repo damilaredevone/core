@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@damilaredev/eslint-config': 0.0.12
       '@damilaredev/tsconfig': 1.5.1
-      '@damilaredev/utils': ^0.2.1
+      '@damilaredev/utils': ^0.3.0
       '@rollup/plugin-alias': 3.1.9
       '@rollup/plugin-commonjs': 21.1.0
       '@rollup/plugin-json': 4.1.0
@@ -38,7 +38,7 @@ importers:
       vite: 2.9.7
       vitest: 0.9.4
     dependencies:
-      '@damilaredev/utils': 0.2.1
+      '@damilaredev/utils': 0.3.0
       react: 18.0.0
       tslib: 2.3.1
     devDependencies:
@@ -321,8 +321,8 @@ packages:
     resolution: {integrity: sha512-EbKb4Nl2+dpvdWNEUQtd+a+MS5tlR3vJtbIB+RqeMKfFynTiaN91mBmvk//cp+t64om1/Yy6x+4WqbPIwmakSw==}
     dev: true
 
-  /@damilaredev/utils/0.2.1:
-    resolution: {integrity: sha512-Er4Hqoi2/dkefO1n4AstbQ+YSdZbD4pxZa9z/NF1IXuHautr8jM0ojEFdfwJHXLpZ51qpTJA1F3ZlXoOqL0fZA==}
+  /@damilaredev/utils/0.3.0:
+    resolution: {integrity: sha512-XnUVdR6o/ZtRjUsdDys2o1s4wsR4j+jD2U8j/LBgjWJE6jpy/YvnqQF4tQXteOZ5umdnebJ93FU2YRsG81Doaw==}
     dev: false
 
   /@docsearch/css/3.0.0:

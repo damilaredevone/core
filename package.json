@@ -61,7 +61,7 @@
     "vitest": "0.9.4"
   },
   "dependencies": {
-    "@damilaredev/utils": "^0.2.1",
+    "@damilaredev/utils": "^0.3.0",
     "react": "^18.0.0",
     "tslib": "^2.3.1"
   }
