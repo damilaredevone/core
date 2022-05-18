@@ -2,7 +2,7 @@
   "name": "@damilaredev/core",
   "version": "0.0.0",
   "description": "",
-  "packageManager": "pnpm@7.0.1",
+  "packageManager": "pnpm@7.1.0",
   "main": "index.ts",
   "scripts": {
     "docs": "npm -C docs run dev",
@@ -47,7 +47,7 @@
     "happy-dom": "3.1.1",
     "husky": "7.0.4",
     "lerna": "4.0.0",
-    "pnpm": "7.0.1",
+    "pnpm": "7.1.0",
     "postcss": "8.4.14",
     "prettier": "2.6.2",
     "react-dom": "18.1.0",
