@@ -41,7 +41,7 @@
     "@types/react-dom": "18.0.5",
     "autoprefixer": "10.4.7",
     "bumpp": "7.1.1",
-    "esbuild": "0.14.42",
+    "esbuild": "0.14.43",
     "eslint": "8.17.0",
     "esno": "0.16.3",
     "happy-dom": "5.0.0",
