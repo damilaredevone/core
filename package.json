@@ -40,7 +40,7 @@
     "@types/react": "18.0.12",
     "@types/react-dom": "18.0.5",
     "autoprefixer": "10.4.7",
-    "bumpp": "7.1.1",
+    "bumpp": "7.2.0",
     "esbuild": "0.14.43",
     "eslint": "8.17.0",
     "esno": "0.16.3",
