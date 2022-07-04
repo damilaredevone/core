@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@damilaredev/eslint-config": "0.0.14",
-    "@damilaredev/tsconfig": "1.5.1",
+    "@damilaredev/tsconfig": "1.5.2",
     "@rollup/plugin-alias": "3.1.9",
     "@rollup/plugin-commonjs": "22.0.1",
     "@rollup/plugin-json": "4.1.0",
