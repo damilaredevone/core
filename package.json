@@ -29,7 +29,7 @@
     "url": "https://github.com/damilaredevone/react-components/issues"
   },
   "devDependencies": {
-    "@damilaredev/eslint-config": "0.0.15",
+    "@damilaredev/eslint-config": "0.0.16",
     "@damilaredev/tsconfig": "1.5.2",
     "@rollup/plugin-alias": "3.1.9",
     "@rollup/plugin-commonjs": "22.0.1",
