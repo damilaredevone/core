@@ -9,7 +9,7 @@ importers:
       '@damilaredev/utils': ^0.3.0
       '@rollup/plugin-alias': 4.0.2
       '@rollup/plugin-commonjs': 23.0.2
-      '@rollup/plugin-json': 4.1.0
+      '@rollup/plugin-json': 5.0.1
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-replace': 4.0.0
       '@rollup/plugin-typescript': 8.5.0
@@ -46,7 +46,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.2
       '@rollup/plugin-alias': 4.0.2_rollup@2.79.1
       '@rollup/plugin-commonjs': 23.0.2_rollup@2.79.1
-      '@rollup/plugin-json': 4.1.0_rollup@2.79.1
+      '@rollup/plugin-json': 5.0.1_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
       '@rollup/plugin-replace': 4.0.0_rollup@2.79.1
       '@rollup/plugin-typescript': 8.5.0_tni5xl5gmy3ebmguyyjocrmq7m
@@ -1574,12 +1574,16 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-json/4.1.0_rollup@2.79.1:
-    resolution: {integrity: sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==}
+  /@rollup/plugin-json/5.0.1_rollup@2.79.1:
+    resolution: {integrity: sha512-QCwhZZLvM8nRcTHyR1vOgyTMiAnjiNj1ebD/BMRvbO1oc/z14lZH6PfxXeegee2B6mky/u9fia4fxRM4TqrUaw==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0 || ^2.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
+      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
       rollup: 2.79.1
     dev: true
 
