@@ -13,7 +13,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-replace': 5.0.1
       '@rollup/plugin-typescript': 9.0.2
-      '@types/react': 18.0.21
+      '@types/react': 18.0.22
       '@types/react-dom': 18.0.6
       autoprefixer: 10.4.12
       bumpp: 8.2.1
@@ -50,7 +50,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.3
       '@rollup/plugin-replace': 5.0.1_rollup@3.2.3
       '@rollup/plugin-typescript': 9.0.2_r5kgtgpkgrmmgt4de6pdf2uesi
-      '@types/react': 18.0.21
+      '@types/react': 18.0.22
       '@types/react-dom': 18.0.6
       autoprefixer: 10.4.12_postcss@8.4.18
       bumpp: 8.2.1
@@ -1740,11 +1740,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.21
+      '@types/react': 18.0.22
     dev: true
 
-  /@types/react/18.0.21:
-    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
+  /@types/react/18.0.22:
+    resolution: {integrity: sha512-4yWc5PyCkZN8ke8K9rQHkTXxHIWHxLzzW6RI1kXVoepkD3vULpKzC2sDtAMKn78h92BRYuzf+7b/ms7ajE6hFw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
