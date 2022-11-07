@@ -42,7 +42,7 @@
     "autoprefixer": "10.4.13",
     "bumpp": "8.2.1",
     "esbuild": "0.15.13",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "esno": "0.16.3",
     "happy-dom": "7.6.6",
     "husky": "8.0.1",
