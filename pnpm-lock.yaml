@@ -8,7 +8,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.2
       '@damilaredev/utils': ^0.3.0
       '@rollup/plugin-alias': 4.0.2
-      '@rollup/plugin-commonjs': 23.0.3
+      '@rollup/plugin-commonjs': 23.0.4
       '@rollup/plugin-json': 5.0.2
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-replace': 5.0.1
@@ -45,7 +45,7 @@ importers:
       '@damilaredev/eslint-config': 0.0.17_3ei62efd3bcnkiayy2psjvtjmy
       '@damilaredev/tsconfig': 1.5.2
       '@rollup/plugin-alias': 4.0.2_rollup@3.6.0
-      '@rollup/plugin-commonjs': 23.0.3_rollup@3.6.0
+      '@rollup/plugin-commonjs': 23.0.4_rollup@3.6.0
       '@rollup/plugin-json': 5.0.2_rollup@3.6.0
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.6.0
       '@rollup/plugin-replace': 5.0.1_rollup@3.6.0
@@ -1557,8 +1557,8 @@ packages:
       slash: 4.0.0
     dev: true
 
-  /@rollup/plugin-commonjs/23.0.3_rollup@3.6.0:
-    resolution: {integrity: sha512-31HxrT5emGfTyIfAs1lDQHj6EfYxTXcwtX5pIIhq+B/xZBNIqQ179d/CkYxlpYmFCxT78AeU4M8aL8Iv/IBxFA==}
+  /@rollup/plugin-commonjs/23.0.4_rollup@3.6.0:
+    resolution: {integrity: sha512-bOPJeTZg56D2MCm+TT4psP8e8Jmf1Jsi7pFUMl8BN5kOADNzofNHe47+84WVCt7D095xPghC235/YKuNDEhczg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -6687,6 +6687,7 @@ packages:
 
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
+    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /spdx-correct/3.1.1:
