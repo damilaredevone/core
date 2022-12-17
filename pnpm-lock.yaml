@@ -8,7 +8,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.2
       '@damilaredev/utils': ^0.3.0
       '@rollup/plugin-alias': 4.0.2
-      '@rollup/plugin-commonjs': 23.0.5
+      '@rollup/plugin-commonjs': 23.0.7
       '@rollup/plugin-json': 5.0.2
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-replace': 5.0.1
@@ -45,7 +45,7 @@ importers:
       '@damilaredev/eslint-config': 0.0.17_td4uqojnii62r3drlxltzbdf3e
       '@damilaredev/tsconfig': 1.5.2
       '@rollup/plugin-alias': 4.0.2_rollup@3.7.5
-      '@rollup/plugin-commonjs': 23.0.5_rollup@3.7.5
+      '@rollup/plugin-commonjs': 23.0.7_rollup@3.7.5
       '@rollup/plugin-json': 5.0.2_rollup@3.7.5
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.7.5
       '@rollup/plugin-replace': 5.0.1_rollup@3.7.5
@@ -668,6 +668,10 @@ packages:
 
   /@isaacs/string-locale-compare/1.1.0:
     resolution: {integrity: sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==}
+    dev: true
+
+  /@jridgewell/sourcemap-codec/1.4.14:
+    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
     dev: true
 
   /@jsdevtools/ez-spawn/3.0.4:
@@ -1755,8 +1759,8 @@ packages:
       slash: 4.0.0
     dev: true
 
-  /@rollup/plugin-commonjs/23.0.5_rollup@3.7.5:
-    resolution: {integrity: sha512-IwI51j5kCmLMYsErEvZAID/pg7Z1qgyVJ+QIPDDIg1AOPbIGbdTCjuHDWIBCtoF1dvMkXfQv7B2eTadjnLRbmA==}
+  /@rollup/plugin-commonjs/23.0.7_rollup@3.7.5:
+    resolution: {integrity: sha512-hsSD5Qzyuat/swzrExGG5l7EuIlPhwTsT7KwKbSCQzIcJWjRxiimi/0tyMYY2bByitNb3i1p+6JWEDGa0NvT0Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -1769,7 +1773,7 @@ packages:
       estree-walker: 2.0.2
       glob: 8.0.3
       is-reference: 1.2.1
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       rollup: 3.7.5
     dev: true
 
@@ -5376,6 +5380,13 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /make-dir/2.1.0:
