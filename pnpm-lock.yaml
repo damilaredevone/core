@@ -28,7 +28,7 @@ importers:
       prettier: 2.8.2
       react: ^18.0.0
       react-dom: 18.2.0
-      rimraf: 3.0.2
+      rimraf: 4.0.4
       rollup: 3.10.0
       rollup-plugin-dts: 5.1.1
       rollup-plugin-esbuild: 5.0.0
@@ -64,7 +64,7 @@ importers:
       postcss: 8.4.21
       prettier: 2.8.2
       react-dom: 18.2.0_react@18.0.0
-      rimraf: 3.0.2
+      rimraf: 4.0.4
       rollup: 3.10.0
       rollup-plugin-dts: 5.1.1_eymahajmafh3u7vrzmo7ylp2pa
       rollup-plugin-esbuild: 5.0.0_jktuin7uk5nzsxpln7p6byxuli
@@ -6726,6 +6726,12 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.0
+    dev: true
+
+  /rimraf/4.0.4:
+    resolution: {integrity: sha512-R0hoVr9xTwemarQjoWlNt/nb5dEGVTBhVdkRmEX2zEkT8T6onH0XKiGjuaC7rNNj/gYzY2p4NVRJ3sjO1ascHQ==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /rollup-plugin-dts/5.1.1_eymahajmafh3u7vrzmo7ylp2pa:
