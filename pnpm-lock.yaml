@@ -23,7 +23,7 @@ importers:
       happy-dom: 8.1.4
       husky: 8.0.3
       lerna: 6.4.1
-      pnpm: 7.14.0
+      pnpm: 7.25.1
       postcss: 8.4.21
       prettier: 2.8.3
       react: ^18.0.0
@@ -60,7 +60,7 @@ importers:
       happy-dom: 8.1.4
       husky: 8.0.3
       lerna: 6.4.1
-      pnpm: 7.14.0
+      pnpm: 7.25.1
       postcss: 8.4.21
       prettier: 2.8.3
       react-dom: 18.2.0_react@18.0.0
@@ -6549,8 +6549,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.14.0:
-    resolution: {integrity: sha512-yUKSckJLBIw8ByqMKJF9497kzwrevuQhdL6o2eYbky7woAictxoGX9veBdQYCdBemuC239X2FJq/LGTpCjQ55w==}
+  /pnpm/7.25.1:
+    resolution: {integrity: sha512-y/jlADVxyk+scBwI0ALRf8QoUMgrWyONnD1voZaPTBI+D+aIXXiFG9pMk3eLhvEfc0nK8KUnnbDDBTywd7WsMw==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
