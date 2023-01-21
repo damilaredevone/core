@@ -7,7 +7,7 @@ importers:
       '@damilaredev/eslint-config': 0.0.17
       '@damilaredev/tsconfig': 1.5.2
       '@damilaredev/utils': ^0.5.0
-      '@rollup/plugin-alias': 4.0.2
+      '@rollup/plugin-alias': 4.0.3
       '@rollup/plugin-commonjs': 24.0.0
       '@rollup/plugin-json': 6.0.0
       '@rollup/plugin-node-resolve': 15.0.1
@@ -44,7 +44,7 @@ importers:
     devDependencies:
       '@damilaredev/eslint-config': 0.0.17_cggprjch7kxeq45ggprcxhyzeq
       '@damilaredev/tsconfig': 1.5.2
-      '@rollup/plugin-alias': 4.0.2_rollup@3.10.1
+      '@rollup/plugin-alias': 4.0.3_rollup@3.10.1
       '@rollup/plugin-commonjs': 24.0.0_rollup@3.10.1
       '@rollup/plugin-json': 6.0.0_rollup@3.10.1
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.10.1
@@ -1950,8 +1950,8 @@ packages:
       typescript: 4.9.4
     dev: true
 
-  /@rollup/plugin-alias/4.0.2_rollup@3.10.1:
-    resolution: {integrity: sha512-1hv7dBOZZwo3SEupxn4UA2N0EDThqSSS+wI1St1TNTBtOZvUchyIClyHcnDcjjrReTPZ47Faedrhblv4n+T5UQ==}
+  /@rollup/plugin-alias/4.0.3_rollup@3.10.1:
+    resolution: {integrity: sha512-ZuDWE1q4PQDhvm/zc5Prun8sBpLJy41DMptYrS6MhAy9s9kL/doN1613BWfEchGVfKxzliJ3BjbOPizXX38DbQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0
