@@ -1,6 +1,6 @@
 import Modal from './Modal'
 import ConfirmModal from './ConfirmModal'
-import './base.scss'
+import './index.css'
 
 export type { ModalType } from './Modal'
 

@@ -39,6 +39,7 @@ importers:
       node-sass: ^8.0.0
       pnpm: 7.25.1
       postcss: 8.4.21
+      postcss-custom-properties: ^12.1.11
       postcss-import: ^15.1.0
       postcss-loader: ^7.0.2
       postcss-nesting: ^10.2.0
@@ -90,6 +91,7 @@ importers:
       node-sass: 8.0.0
       pnpm: 7.25.1
       postcss: 8.4.21
+      postcss-custom-properties: 12.1.11_postcss@8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
       postcss-loader: 7.0.2_postcss@8.4.21
       postcss-nesting: 10.2.0_postcss@8.4.21
@@ -5034,6 +5036,16 @@ packages:
       postcss: ^8.2.15
     dependencies:
       browserslist: 4.21.4
+      postcss: 8.4.21
+      postcss-value-parser: 4.2.0
+    dev: true
+
+  /postcss-custom-properties/12.1.11_postcss@8.4.21:
+    resolution: {integrity: sha512-0IDJYhgU8xDv1KY6+VgUwuQkVtmYzRwu+dMjnmdMafXYv86SWqfxkc7qdDvWS38vsjaEtv8e0vGOUQrAiMBLpQ==}
+    engines: {node: ^12 || ^14 || >=16}
+    peerDependencies:
+      postcss: ^8.2
+    dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
     dev: true

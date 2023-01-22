@@ -38,10 +38,15 @@ const plugins = [
       path: '../../postcss.config.cjs',
       ctx: null,
     },
+    inject: {
+      insertAt: 'top',
+    },
     minimize: true,
-    extract: true,
+    // extract: true,
     extensions: ['.css'],
   }),
+  terser(),
+  babel({ babelHelpers: 'bundled' }),
   copy({
     targets: [
       {
@@ -78,12 +83,7 @@ export default defineConfig([
       },
     ],
     external,
-    plugins: [
-      ...plugins,
-      commonjs(),
-      terser(),
-      babel({ babelHelpers: 'bundled' }),
-    ],
+    plugins: [...plugins, commonjs()],
   },
   {
     input: entries,
