@@ -1,6 +1,5 @@
 module.exports = {
-  content: ['./packages/components/**/*.{js,ts,jsx,tsx}'],
-  presets: [],
+  content: ['./packages/**/*.{jsx,tsx}'],
   darkMode: 'class', // or 'class'
   theme: {
     screens: {

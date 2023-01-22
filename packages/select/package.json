@@ -34,7 +34,6 @@
       "index.js"
     ],
     "scripts": {
-      "build": "rimraf dist && rollup -c",
       "dev": "rollup -c --watch",
       "prepublishOnly": "pnpm build"
     },

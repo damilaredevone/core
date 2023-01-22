@@ -8,6 +8,8 @@ import esbuild from 'rollup-plugin-esbuild'
 import babel from '@rollup/plugin-babel'
 import typescript from '@rollup/plugin-typescript'
 import postcss from 'rollup-plugin-postcss'
+import terser from '@rollup/plugin-terser'
+import copy from 'rollup-plugin-copy'
 import pkg from './package.json'
 
 const entries = {
@@ -32,7 +34,22 @@ const plugins = [
     outDir: 'dist',
   }),
   postcss({
-    extensions: ['.scss'],
+    config: {
+      path: '../../postcss.config.cjs',
+      ctx: null,
+    },
+    minimize: true,
+    extract: true,
+    extensions: ['.css'],
+  }),
+  copy({
+    targets: [
+      {
+        src: './tailwind.config.js',
+        dest: 'dist/',
+        rename: 'tailwind-theme.js',
+      },
+    ],
   }),
 ]
 
@@ -61,7 +78,12 @@ export default defineConfig([
       },
     ],
     external,
-    plugins: [...plugins, commonjs(), babel({ babelHelpers: 'bundled' })],
+    plugins: [
+      ...plugins,
+      commonjs(),
+      terser(),
+      babel({ babelHelpers: 'bundled' }),
+    ],
   },
   {
     input: entries,
