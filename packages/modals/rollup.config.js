@@ -5,7 +5,10 @@ import dts from 'rollup-plugin-dts'
 import { defineConfig } from 'rollup'
 import commonjs from '@rollup/plugin-commonjs'
 import esbuild from 'rollup-plugin-esbuild'
-import pkg from '@damilaredev/hooks/package.json'
+import babel from '@rollup/plugin-babel'
+import typescript from '@rollup/plugin-typescript'
+import postcss from 'rollup-plugin-postcss'
+import pkg from './package.json'
 
 const entries = {
   index: 'src/index.ts',
@@ -24,6 +27,12 @@ const plugins = [
   json(),
   esbuild({
     target: 'node14',
+  }),
+  typescript({
+    outDir: 'dist',
+  }),
+  postcss({
+    extensions: ['.scss'],
   }),
 ]
 
@@ -52,7 +61,7 @@ export default defineConfig([
       },
     ],
     external,
-    plugins: [...plugins, commonjs()],
+    plugins: [...plugins, commonjs(), babel({ babelHelpers: 'bundled' })],
   },
   {
     input: entries,
@@ -60,7 +69,6 @@ export default defineConfig([
       dir: 'dist',
       entryFileNames: '[name].d.ts',
       format: 'esm',
-      sourcemap: true,
     },
     external,
     plugins: [dts({ respectExternal: true })],

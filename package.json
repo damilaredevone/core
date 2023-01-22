@@ -13,12 +13,16 @@
     "typecheck:why": "tsc --noEmit --explainFiles > explainTypes.txt",
     "lint": "eslint --cache .",
     "lint:fix": "nr lint --fix ",
+    "format:test": "prettier --cache --check \"**/*.{ts,tsx}\"",
+    "format:write": "prettier --cache --write \"**/*.{ts,tsx}\"",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
-    "build": "pnpm -r --filter {packages/**} run build",
+    "build": "pnpm -r --filter='./packages/**' run build",
+    "build:modals": "pnpm -r --filter='./packages/modals' run build",
+    "build:hooks": "pnpm -r --filter='./packages/hooks' run build",
     "clean": "rimraf packages/**/*/{dist,lib,cjs,esm}",
     "test": "vitest run",
-    "test:utils": "pnpm -r --filter {packages/utils} run test",
-    "test:components": "npm -C packages/components run test",
+    "test:utils": "pnpm -r --filter=./packages/utils run test",
+    "test:modals": "npm -C packages/modals run test",
     "release:prepare": "pnpm clean && pnpm test",
     "test:all": "CI=true pnpm -r --stream run test --allowOnly"
   },
@@ -34,11 +38,13 @@
   "devDependencies": {
     "@antfu/ni": "^0.19.0",
     "@babel/core": "^7.20.12",
-    "@damilaredev/components": "workspace:*",
+    "@damilaredev/modals": "workspace:*",
     "@damilaredev/eslint-config": "0.0.17",
+    "@damilaredev/eslint-config-typescript": "^0.0.17",
     "@damilaredev/hooks": "workspace:*",
     "@damilaredev/tsconfig": "1.5.2",
     "@rollup/plugin-alias": "4.0.3",
+    "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-json": "6.0.0",
     "@rollup/plugin-node-resolve": "15.0.1",
@@ -54,7 +60,6 @@
     "esno": "0.16.3",
     "happy-dom": "8.1.5",
     "husky": "8.0.3",
-    "lerna": "6.4.1",
     "lint-staged": "^13.1.0",
     "node-sass": "^8.0.0",
     "pnpm": "7.25.1",
@@ -66,7 +71,6 @@
     "rollup": "3.10.1",
     "rollup-plugin-dts": "5.1.1",
     "rollup-plugin-esbuild": "5.0.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
     "simple-git-hooks": "^2.8.1",
@@ -80,7 +84,6 @@
     "@damilaredev/utils": "^0.5.0"
   },
   "resolutions": {
-    "rollup": "^2.79.1",
     "@damilaredev/hooks": "workspace:*"
   },
   "simple-git-hooks": {
@@ -90,5 +93,12 @@
     "*.{js,ts,tsx,vue,md}": [
       "eslint --cache --fix"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "rollup": "^2.79.1",
+      "@damilaredev/modals": "workspace:*",
+      "@damilaredev/hooks": "workspace:*"
+    }
   }
 }

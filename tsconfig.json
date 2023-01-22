@@ -2,7 +2,7 @@
     "compilerOptions": {
       "target": "esnext",
       "module": "esnext",
-      "lib": ["esnext", "dom", "ES2017"],
+      "lib": ["esnext", "dom", "ES2017", "ES6", "ES2015"],
       "moduleResolution": "node",
       "esModuleInterop": true,
       "strict": true,
@@ -11,12 +11,13 @@
       "skipDefaultLibCheck": true,
       "skipLibCheck": true,
       "outDir": "./dist",
+      "jsx": "react",
       "declaration": true,
       "inlineSourceMap": true,
       "allowSyntheticDefaultImports": true,
       "paths": {
-        "@damilaredev/hooks": ["./packages/hooks/index.ts"],
-        "@damilaredev/components": ["./packages/components/index.ts"],
+        "@damilaredev/hooks": ["./packages/hooks"],
+        "@damilaredev/modals": ["./packages/modals"],
       },
       "types": [
         "node",
