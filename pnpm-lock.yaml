@@ -19,7 +19,7 @@ importers:
       '@rollup/plugin-json': 6.0.0
       '@rollup/plugin-node-resolve': 15.0.1
       '@rollup/plugin-replace': 5.0.2
-      '@rollup/plugin-terser': ^0.3.0
+      '@rollup/plugin-terser': ^0.4.0
       '@rollup/plugin-typescript': 11.0.0
       '@storybook/addons': ^6.5.15
       '@storybook/components': ^6.5.15
@@ -75,7 +75,7 @@ importers:
       '@rollup/plugin-json': 6.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
       '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
-      '@rollup/plugin-terser': 0.3.0_rollup@2.79.1
+      '@rollup/plugin-terser': 0.4.0_rollup@2.79.1
       '@rollup/plugin-typescript': 11.0.0_r6dh7ue2zm4j7cn54kthwdq5oe
       '@storybook/addons': 6.5.15_biqbaboplfbrettd7655fr4n2y
       '@storybook/components': 6.5.15_biqbaboplfbrettd7655fr4n2y
@@ -2684,8 +2684,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-terser/0.3.0_rollup@2.79.1:
-    resolution: {integrity: sha512-mYTkNW9KjOscS/3QWU5LfOKsR3/fAAVDaqcAe2TZ7ng6pN46f+C7FOZbITuIW/neA+PhcjoKl7yMyB3XcmA4gw==}
+  /@rollup/plugin-terser/0.4.0_rollup@2.79.1:
+    resolution: {integrity: sha512-Ipcf3LPNerey1q9ZMjiaWHlNPEHNU/B5/uh9zXLltfEQ1lVSLLeZSgAtTPWGyw8Ip1guOeq+mDtdOlEj/wNxQw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.x || ^3.x
