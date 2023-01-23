@@ -1,3 +1,3 @@
-import { DefaultTheme } from 'vitepress';
+import { DefaultTheme } from 'vitepress'
 
-export default DefaultTheme;
+export default DefaultTheme

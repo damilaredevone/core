@@ -43,7 +43,7 @@ const plugins = [
     },
     minimize: true,
     // extract: true,
-    extensions: ['.css'],
+    extensions: ['css'],
   }),
   terser(),
   babel({ babelHelpers: 'bundled' }),
