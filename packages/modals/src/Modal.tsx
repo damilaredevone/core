@@ -2,6 +2,7 @@ import type { ReactNode, Ref } from 'react'
 import React, { forwardRef, memo, useImperativeHandle, useState } from 'react'
 import { classNames } from '@damilaredev/utils'
 import { useHandleEscape } from '@damilaredev/hooks'
+import './index.css'
 
 export type ModalType = {
   children?: ReactNode

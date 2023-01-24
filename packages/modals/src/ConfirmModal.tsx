@@ -12,6 +12,7 @@ import type {
 } from 'react'
 import React, { forwardRef, memo, useImperativeHandle, useRef } from 'react'
 import Modal from './Modal'
+import './index.css'
 
 export type ButtonType<C = any, T = any> = {
   title?: string

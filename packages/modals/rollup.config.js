@@ -47,7 +47,7 @@ const plugins = [
     tsconfig: './tsconfig.json',
     exclude: ['**/src/stories/**', '**/*.stories.tsx'],
   }),
-  // terser(),
+  terser(),
   babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
 ]
 
