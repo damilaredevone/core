@@ -1,15 +1,13 @@
 import { builtinModules } from 'module'
-import json from '@rollup/plugin-json'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
-import dts from 'rollup-plugin-dts'
-import { defineConfig } from 'rollup'
 import commonjs from '@rollup/plugin-commonjs'
-import esbuild from 'rollup-plugin-esbuild'
-import babel from '@rollup/plugin-babel'
 import typescript from '@rollup/plugin-typescript'
+import dts from 'rollup-plugin-dts'
 import postcss from 'rollup-plugin-postcss'
 import terser from '@rollup/plugin-terser'
-import copy from 'rollup-plugin-copy'
+import babel from '@rollup/plugin-babel'
+import esbuild from 'rollup-plugin-esbuild'
+import { defineConfig } from 'rollup'
 import pkg from './package.json'
 
 const entries = {
@@ -23,16 +21,6 @@ const external = [
 ]
 
 const plugins = [
-  nodeResolve({
-    preferBuiltins: true,
-  }),
-  json(),
-  esbuild({
-    target: 'node14',
-  }),
-  typescript({
-    outDir: 'dist',
-  }),
   postcss({
     config: {
       path: '../../postcss.config.cjs',
@@ -41,59 +29,55 @@ const plugins = [
     inject: {
       insertAt: 'top',
     },
-    minimize: true,
-    // extract: true,
-    extensions: ['css'],
+    // minimize: true,
+    extract: true,
+    modules: true,
+  }),
+  nodeResolve({
+    preferBuiltins: true,
+  }),
+  commonjs(),
+  // json(),
+  esbuild({
+    target: 'node14',
+  }),
+  typescript({
+    tsconfig: './tsconfig.json',
+    exclude: ['**/src/stories/**', '**/*.stories.tsx'],
   }),
   terser(),
   babel({ babelHelpers: 'bundled' }),
-  copy({
-    targets: [
-      {
-        src: './tailwind.config.js',
-        dest: 'dist/',
-        rename: 'tailwind-theme.js',
-      },
-    ],
-  }),
 ]
 
 export default defineConfig([
   {
-    input: entries,
-    output: {
-      dir: 'dist',
-      format: 'esm',
-      entryFileNames: '[name].esm.js',
-      chunkFileNames: 'chunk-[name].js',
-      sourcemap: true,
-    },
-    external,
-    plugins,
-    onwarn,
-  },
-  {
-    input: entries,
+    input: 'src/index.ts',
     output: [
       {
-        dir: 'dist',
+        file: pkg.main,
         format: 'cjs',
-        entryFileNames: '[name].js',
+        sourcemap: true,
+      },
+      {
+        file: pkg.module,
+        format: 'esm',
         sourcemap: true,
       },
     ],
+    plugins,
     external,
-    plugins: [...plugins, commonjs()],
+    onwarn,
   },
   {
-    input: entries,
-    output: {
-      dir: 'dist',
-      entryFileNames: '[name].d.ts',
-      format: 'esm',
-    },
-    external,
+    input: 'src/index.ts',
+    output: [
+      {
+        file: 'dist/index.d.ts',
+        format: 'esm',
+      },
+    ],
     plugins: [dts({ respectExternal: true })],
+    external: [...external, /\.css$/, /\.scss$/],
     onwarn,
   },
 ])

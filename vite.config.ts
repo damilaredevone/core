@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defaultExclude, defineConfig } from 'vitest/config'
 
 export default defineConfig({
   test: {
@@ -8,5 +8,7 @@ export default defineConfig({
       reporter: ['text', 'html'],
     },
     reporters: 'dot',
+    restoreMocks: true,
+    clearMocks: true,
   },
 })
