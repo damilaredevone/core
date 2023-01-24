@@ -72,7 +72,7 @@
     "postcss-custom-properties": "^13.0.0",
     "postcss-import": "^15.1.0",
     "postcss-loader": "^7.0.2",
-    "postcss-nesting": "^10.2.0",
+    "postcss-nesting": "^11.0.0",
     "prettier": "2.8.3",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
