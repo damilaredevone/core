@@ -1,5 +1,5 @@
-/* @tailwind base;
-@tailwind components; */
+@tailwind base;
+@tailwind components;
 
 .modal {
   @apply cursor-auto;
@@ -48,4 +48,4 @@
   @apply shadow-sm;
 }
 
-/* @tailwind utilities; */
+@tailwind utilities;

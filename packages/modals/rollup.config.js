@@ -31,10 +31,12 @@ const plugins = [
     },
     minimize: false,
     extract: true,
-    // modules: true,
+    extensions: ['.css'],
   }),
   nodeResolve({
     preferBuiltins: true,
+    browser: true,
+    mainFields: ['module', 'main'],
   }),
   commonjs(),
   // json(),
@@ -45,8 +47,8 @@ const plugins = [
     tsconfig: './tsconfig.json',
     exclude: ['**/src/stories/**', '**/*.stories.tsx'],
   }),
-  terser(),
-  babel({ babelHelpers: 'bundled' }),
+  // terser(),
+  babel({ babelHelpers: 'bundled', exclude: 'node_modules/**' }),
 ]
 
 export default defineConfig([
@@ -63,6 +65,12 @@ export default defineConfig([
         format: 'esm',
         sourcemap: true,
       },
+      // {
+      //   file: pkg.module,
+      //   format: 'iife',
+      //   sourcemap: 'inline',
+      //   name: 'index',
+      // },
     ],
     plugins,
     external,

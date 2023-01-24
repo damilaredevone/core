@@ -17,6 +17,7 @@
     "format:write": "prettier --cache --write \"**/*.{ts,tsx}\"",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "build": "pnpm -r --filter='./packages/**' run build",
+    "dev": "NODE_OPTIONS=\"--max-old-space-size=8192\" pnpm -r --parallel --filter='./packages/**' run dev",
     "build:modals": "pnpm -r --filter='./packages/modals' run build",
     "build:hooks": "pnpm -r --filter='./packages/hooks' run build",
     "start:components": "pnpm -r --filter='./examples/components' run dev",
