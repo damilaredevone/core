@@ -44,7 +44,7 @@ importers:
       postcss-custom-properties: ^13.0.0
       postcss-import: ^15.1.0
       postcss-loader: ^7.0.2
-      postcss-nesting: ^10.2.0
+      postcss-nesting: ^11.0.0
       prettier: 2.8.3
       react: ^18.2.0
       react-dom: 18.2.0
@@ -100,7 +100,7 @@ importers:
       postcss-custom-properties: 13.1.0_postcss@8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
       postcss-loader: 7.0.2_postcss@8.4.21
-      postcss-nesting: 10.2.0_postcss@8.4.21
+      postcss-nesting: 11.0.0_postcss@8.4.21
       prettier: 2.8.3
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -11314,11 +11314,11 @@ packages:
       postcss-selector-parser: 6.0.10
     dev: true
 
-  /postcss-nesting/10.2.0_postcss@8.4.21:
-    resolution: {integrity: sha512-EwMkYchxiDiKUhlJGzWsD9b2zvq/r2SSubcRrgP+jujMXFzqvANLt16lJANC+5uZ6hjI7lpRmI6O8JIl+8l1KA==}
-    engines: {node: ^12 || ^14 || >=16}
+  /postcss-nesting/11.0.0_postcss@8.4.21:
+    resolution: {integrity: sha512-Y+jmDpQuSSoM/Qq+rqDc4D3E8Cn84qUmJLFS/M5u0YgM+5adLi9qFApbz5XzjzXjGAzItTUCP7RikLGy06ebiA==}
+    engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
-      postcss: ^8.2
+      postcss: ^8.4
     dependencies:
       '@csstools/selector-specificity': 2.1.0_jwkxkvlpbeeukrxssifiwvrjeq
       postcss: 8.4.21
