@@ -12,7 +12,7 @@ export type ModalType = {
 
 const Modal = forwardRef<Ref<HTMLDivElement | null>, ModalType>(
   (
-    { children, customClass, isDismisable, close }: ModalType,
+    { children, customClass, isDismisable = true, close }: ModalType,
     ref: Ref<any>,
   ) => {
     const [isOpen, setOpen] = useState<boolean>(false)

@@ -19,6 +19,7 @@
     "build": "pnpm -r --filter='./packages/**' run build",
     "build:modals": "pnpm -r --filter='./packages/modals' run build",
     "build:hooks": "pnpm -r --filter='./packages/hooks' run build",
+    "start:components": "pnpm -r --filter='./examples/components' run dev",
     "clean": "rimraf packages/**/*/{dist,lib,cjs,esm}",
     "test": "vitest run",
     "test:utils": "pnpm -r --filter=./packages/utils run test",

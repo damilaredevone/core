@@ -29,9 +29,9 @@ const plugins = [
     inject: {
       insertAt: 'top',
     },
-    // minimize: true,
+    minimize: false,
     extract: true,
-    modules: true,
+    // modules: true,
   }),
   nodeResolve({
     preferBuiltins: true,
