@@ -61,7 +61,7 @@ importers:
       tailwindcss: 3.2.4
       tslib: ^2.3.1
       typescript: 4.9.5
-      vite: 4.0.4
+      vite: 4.1.1
       vitest: 0.28.4
     dependencies:
       '@damilaredev/utils': 0.5.0
@@ -119,7 +119,7 @@ importers:
       tailwindcss: 3.2.4_postcss@8.4.21
       tslib: 2.3.1
       typescript: 4.9.5
-      vite: 4.0.4_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.18
       vitest: 0.28.4_happy-dom@8.2.4
 
   docs:
@@ -13978,7 +13978,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.0.4_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.18
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -14022,8 +14022,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.4_@types+node@18.11.18:
-    resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
+  /vite/4.1.1_@types+node@18.11.18:
+    resolution: {integrity: sha512-LM9WWea8vsxhr782r9ntg+bhSFS06FJgCvvB0+8hf8UWtvaiDagKYWXndjfX6kGl74keHJUcpzrQliDXZlF5yg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -14127,7 +14127,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
-      vite: 4.0.4_@types+node@18.11.18
+      vite: 4.1.1_@types+node@18.11.18
       vite-node: 0.28.4_@types+node@18.11.18
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
