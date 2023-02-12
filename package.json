@@ -38,7 +38,7 @@
     "url": "https://github.com/damilaredevone/core/issues"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.19.0",
+    "@antfu/ni": "^0.20.0",
     "@babel/core": "^7.20.12",
     "@damilaredev/eslint-config": "0.0.17",
     "@damilaredev/eslint-config-typescript": "^0.0.17",
