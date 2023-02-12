@@ -95,7 +95,7 @@
     "vitest": "0.28.4"
   },
   "dependencies": {
-    "@damilaredev/utils": "^0.5.0"
+    "@damilaredev/utils": "^0.6.0"
   },
   "resolutions": {
     "@damilaredev/hooks": "workspace:*"

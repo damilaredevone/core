@@ -48,7 +48,7 @@
         "react-dom": ">=16.8.0"
     },
     "dependencies": {
-      "@damilaredev/utils": "0.5.0"
+      "@damilaredev/utils": "0.6.0"
     },
     "devDependencies": {
       "@damilaredev/hooks": "workspace:*"

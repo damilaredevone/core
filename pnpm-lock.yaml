@@ -12,7 +12,7 @@ importers:
       '@damilaredev/eslint-config': 0.0.18
       '@damilaredev/eslint-config-typescript': ^0.0.17
       '@damilaredev/tsconfig': 1.5.2
-      '@damilaredev/utils': ^0.5.0
+      '@damilaredev/utils': ^0.6.0
       '@rollup/plugin-alias': 4.0.3
       '@rollup/plugin-babel': ^6.0.3
       '@rollup/plugin-commonjs': 24.0.1
@@ -64,7 +64,7 @@ importers:
       vite: 4.1.1
       vitest: 0.28.4
     dependencies:
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     devDependencies:
       '@antfu/ni': 0.20.0
       '@babel/core': 7.20.12
@@ -151,25 +151,25 @@ importers:
 
   packages/hooks:
     specifiers:
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     dependencies:
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
 
   packages/modals:
     specifiers:
       '@damilaredev/hooks': workspace:*
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     dependencies:
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     devDependencies:
       '@damilaredev/hooks': link:../hooks
 
   packages/select:
     specifiers:
       '@damilaredev/hooks': workspace:*
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     dependencies:
-      '@damilaredev/utils': 0.5.0
+      '@damilaredev/utils': 0.6.0
     devDependencies:
       '@damilaredev/hooks': link:../hooks
 
@@ -1967,8 +1967,8 @@ packages:
     resolution: {integrity: sha512-KveiQv/XNypAq0z0vNry4d6ZaC95TA15mqFXcA1LFlDtvAoYE2ud+lQSbTYaxnvIbpaLpYXSe2s3HfCEq7Zh9A==}
     dev: true
 
-  /@damilaredev/utils/0.5.0:
-    resolution: {integrity: sha512-ShS2NQQE0BdtjXwWXa9EuLMX1GPCsGKvtNY/QbZt3KjzZ/ua3TXVtNOOjRJgxKsjEjB8LEXou1wEU/w9+viKgg==}
+  /@damilaredev/utils/0.6.0:
+    resolution: {integrity: sha512-cm0XmIC1tjH8Vbj4vHArfswvRMUkNTER4YChVLeLM+z3SWvTYRLOqETrljh/nwEIRqI68pVtdnICgYZL+/u+CA==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dev: false
 
