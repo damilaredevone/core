@@ -41,7 +41,7 @@
     "@antfu/ni": "^0.20.0",
     "@babel/core": "^7.20.12",
     "@damilaredev/eslint-config": "0.0.18",
-    "@damilaredev/eslint-config-typescript": "^0.0.17",
+    "@damilaredev/eslint-config-typescript": "^0.0.18",
     "@damilaredev/tsconfig": "1.5.2",
     "@rollup/plugin-alias": "4.0.3",
     "@rollup/plugin-babel": "^6.0.3",
