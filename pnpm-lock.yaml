@@ -41,7 +41,7 @@ importers:
       lint-staged: ^13.1.0
       node-sass: ^8.0.0
       picocolors: ^1.0.0
-      pnpm: 7.27.0
+      pnpm: 7.27.1
       postcss: 8.4.21
       postcss-custom-properties: ^13.0.0
       postcss-import: ^15.1.0
@@ -99,7 +99,7 @@ importers:
       lint-staged: 13.1.0
       node-sass: 8.0.0
       picocolors: 1.0.0
-      pnpm: 7.27.0
+      pnpm: 7.27.1
       postcss: 8.4.21
       postcss-custom-properties: 13.1.0_postcss@8.4.21
       postcss-import: 15.1.0_postcss@8.4.21
@@ -11001,8 +11001,8 @@ packages:
       - typescript
     dev: true
 
-  /pnpm/7.27.0:
-    resolution: {integrity: sha512-nvxGrxgu3oYyw7zg7DdotEnqp9r/c0/iLZHr6QewJPEkVFGSPdsxrm0HFKBkOqwCInoutFzz/mtGx+pbYV8UCw==}
+  /pnpm/7.27.1:
+    resolution: {integrity: sha512-IpBeZ+71slENbuOXwbV4U6yxOMfEWEvlVuT6+ChZ1D80oF0eHyN4h/hc13UrzVXpXI3bf7sPfRWGb8TYkrvJUA==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
