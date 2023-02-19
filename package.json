@@ -63,7 +63,7 @@
     "babel-loader": "^9.1.2",
     "babel-preset-react-app": "^10.0.1",
     "bumpp": "8.2.1",
-    "esbuild": "0.17.8",
+    "esbuild": "0.17.9",
     "eslint": "8.34.0",
     "esno": "0.16.3",
     "happy-dom": "8.6.0",
