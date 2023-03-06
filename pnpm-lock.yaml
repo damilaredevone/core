@@ -50,7 +50,7 @@ importers:
       prettier: 2.8.4
       react: ^18.2.0
       react-dom: 18.2.0
-      rimraf: 4.3.0
+      rimraf: 4.3.1
       rollup: ^2.79.1
       rollup-plugin-copy: ^3.4.0
       rollup-plugin-dts: 5.2.0
@@ -108,7 +108,7 @@ importers:
       prettier: 2.8.4
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 4.3.0
+      rimraf: 4.3.1
       rollup: 2.79.1
       rollup-plugin-copy: 3.4.0
       rollup-plugin-dts: 5.2.0_zptcx3kz3uwp66hzhyyt545weq
@@ -12241,8 +12241,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rimraf/4.3.0:
-    resolution: {integrity: sha512-5qVDXPbByA1qSJEWMv1qAwKsoS22vVpsL2QyxCKBw4gf6XiFo1K3uRLY6uSOOBFDwnqAZtnbILqWKKlzh8bkGg==}
+  /rimraf/4.3.1:
+    resolution: {integrity: sha512-GfHJHBzFQra23IxDzIdBqhOWfbtdgS1/dCHrDy+yvhpoJY5TdwdT28oWaHWfRpKFDLd3GZnGTx6Mlt4+anbsxQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
