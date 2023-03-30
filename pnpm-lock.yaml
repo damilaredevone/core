@@ -58,7 +58,7 @@ importers:
       rollup-plugin-postcss: ^4.0.2
       sass-loader: ^13.2.0
       simple-git-hooks: ^2.8.1
-      tailwindcss: 3.3.0
+      tailwindcss: 3.3.1
       tslib: ^2.3.1
       typescript: 5.0.2
       vite: 4.2.1
@@ -116,7 +116,7 @@ importers:
       rollup-plugin-postcss: 4.0.2_postcss@8.4.21
       sass-loader: 13.2.0_node-sass@8.0.0
       simple-git-hooks: 2.8.1
-      tailwindcss: 3.3.0_postcss@8.4.21
+      tailwindcss: 3.3.1_postcss@8.4.21
       tslib: 2.3.1
       typescript: 5.0.2
       vite: 4.2.1_@types+node@18.11.18
@@ -13276,8 +13276,8 @@ packages:
     resolution: {integrity: sha512-AsS729u2RHUfEra9xJrE39peJcc2stq2+poBXX8bcM08Y6g9j/i/PUzwNQqkaJde7Ntg1TO7bSREbR5sdosQ+g==}
     dev: true
 
-  /tailwindcss/3.3.0_postcss@8.4.21:
-    resolution: {integrity: sha512-hOXlFx+YcklJ8kXiCAfk/FMyr4Pm9ck477G0m/us2344Vuj355IpoEDB5UmGAsSpTBmr+4ZhjzW04JuFXkb/fw==}
+  /tailwindcss/3.3.1_postcss@8.4.21:
+    resolution: {integrity: sha512-Vkiouc41d4CEq0ujXl6oiGFQ7bA3WEhUZdTgXAhtKxSy49OmKs8rEfQmupsfF0IGW8fv2iQkp1EVUuapCFrZ9g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
