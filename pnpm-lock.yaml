@@ -15,7 +15,7 @@ importers:
       '@damilaredev/utils': ^0.6.0
       '@rollup/plugin-alias': 5.0.0
       '@rollup/plugin-babel': ^6.0.3
-      '@rollup/plugin-commonjs': 24.0.1
+      '@rollup/plugin-commonjs': 24.1.0
       '@rollup/plugin-json': 6.0.0
       '@rollup/plugin-node-resolve': 15.0.2
       '@rollup/plugin-replace': 5.0.2
@@ -73,7 +73,7 @@ importers:
       '@damilaredev/tsconfig': 1.5.2
       '@rollup/plugin-alias': 5.0.0_rollup@2.79.1
       '@rollup/plugin-babel': 6.0.3_3dsfpkpoyvuuxyfgdbpn4j4uzm
-      '@rollup/plugin-commonjs': 24.0.1_rollup@2.79.1
+      '@rollup/plugin-commonjs': 24.1.0_rollup@2.79.1
       '@rollup/plugin-json': 6.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.2_rollup@2.79.1
       '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
@@ -2458,8 +2458,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-commonjs/24.0.1_rollup@2.79.1:
-    resolution: {integrity: sha512-15LsiWRZk4eOGqvrJyu3z3DaBu5BhXIMeWnijSRvd8irrrg9SHpQ1pH+BUK4H6Z9wL9yOxZJMTLU+Au86XHxow==}
+  /@rollup/plugin-commonjs/24.1.0_rollup@2.79.1:
+    resolution: {integrity: sha512-eSL45hjhCWI0jCCXcNtLVqM5N1JlBGvlFfY0m6oOYnLCJ6N0qEXoZql4sY2MOUArzhH4SA/qBpTxvvZp2Sc+DQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -2470,7 +2470,7 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@2.79.1
       commondir: 1.0.1
       estree-walker: 2.0.2
-      glob: 8.0.3
+      glob: 8.1.0
       is-reference: 1.2.1
       magic-string: 0.27.0
       rollup: 2.79.1
@@ -5631,17 +5631,6 @@ packages:
       minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
-    dev: true
-
-  /glob/8.0.3:
-    resolution: {integrity: sha512-ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==}
-    engines: {node: '>=12'}
-    dependencies:
-      fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 5.1.0
-      once: 1.4.0
     dev: true
 
   /glob/8.1.0:
