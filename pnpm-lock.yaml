@@ -61,7 +61,7 @@ importers:
       tailwindcss: 3.3.2
       tslib: ^2.3.1
       typescript: 5.0.4
-      vite: 4.3.3
+      vite: 4.3.4
       vitest: 0.30.1
     dependencies:
       '@damilaredev/utils': 0.6.0
@@ -119,7 +119,7 @@ importers:
       tailwindcss: 3.3.2
       tslib: 2.3.1
       typescript: 5.0.4
-      vite: 4.3.3_@types+node@18.11.18
+      vite: 4.3.4_@types+node@18.11.18
       vitest: 0.30.1_happy-dom@9.10.2
 
   docs:
@@ -9059,7 +9059,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.3_@types+node@18.11.18
+      vite: 4.3.4_@types+node@18.11.18
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -9103,8 +9103,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.3.3_@types+node@18.11.18:
-    resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
+  /vite/4.3.4_@types+node@18.11.18:
+    resolution: {integrity: sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -9218,7 +9218,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.4.0
       tinypool: 0.4.0
-      vite: 4.3.3_@types+node@18.11.18
+      vite: 4.3.4_@types+node@18.11.18
       vite-node: 0.30.1_@types+node@18.11.18
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
