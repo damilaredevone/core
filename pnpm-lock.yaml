@@ -27,8 +27,8 @@ importers:
       '@storybook/theming': ^7.0.0
       '@types/fs-extra': ^11.0.1
       '@types/node': ^18.11.18
-      '@types/react': 18.2.0
-      '@types/react-dom': 18.2.1
+      '@types/react': 18.2.2
+      '@types/react-dom': 18.2.3
       autoprefixer: 10.4.14
       babel-loader: ^9.1.2
       babel-preset-react-app: ^10.0.1
@@ -85,8 +85,8 @@ importers:
       '@storybook/theming': 7.0.2_biqbaboplfbrettd7655fr4n2y
       '@types/fs-extra': 11.0.1
       '@types/node': 18.11.18
-      '@types/react': 18.2.0
-      '@types/react-dom': 18.2.1
+      '@types/react': 18.2.2
+      '@types/react-dom': 18.2.3
       autoprefixer: 10.4.14_postcss@8.4.23
       babel-loader: 9.1.2_@babel+core@7.20.12
       babel-preset-react-app: 10.0.1
@@ -3023,10 +3023,10 @@ packages:
       '@types/react': 18.0.27
     dev: true
 
-  /@types/react-dom/18.2.1:
-    resolution: {integrity: sha512-8QZEV9+Kwy7tXFmjJrp3XUKQSs9LTnE0KnoUb0YCguWBiNW0Yfb2iBMYZ08WPg35IR6P3Z0s00B15SwZnO26+w==}
+  /@types/react-dom/18.2.3:
+    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.2.0
+      '@types/react': 18.2.2
     dev: true
 
   /@types/react/18.0.27:
@@ -3037,8 +3037,8 @@ packages:
       csstype: 3.0.11
     dev: true
 
-  /@types/react/18.2.0:
-    resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}
+  /@types/react/18.2.2:
+    resolution: {integrity: sha512-4GZH3GLuqdZbDvOW5Pqqe7jgsDrKwkJfZMZLwFcgoz3CVDSvnMeG/Ihe44IbZ5Mqhh1fyTh5e44z6pNjIzzV8g==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
