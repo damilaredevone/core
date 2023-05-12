@@ -36,7 +36,7 @@ importers:
       esbuild: 0.17.18
       eslint: 8.40.0
       esno: 0.16.3
-      happy-dom: 9.11.0
+      happy-dom: 9.16.0
       husky: 8.0.3
       lint-staged: ^13.1.0
       node-sass: ^8.0.0
@@ -94,7 +94,7 @@ importers:
       esbuild: 0.17.18
       eslint: 8.40.0
       esno: 0.16.3
-      happy-dom: 9.11.0
+      happy-dom: 9.16.0
       husky: 8.0.3
       lint-staged: 13.1.0
       node-sass: 8.0.0
@@ -120,7 +120,7 @@ importers:
       tslib: 2.3.1
       typescript: 5.0.4
       vite: 4.3.5_@types+node@18.11.18
-      vitest: 0.31.0_happy-dom@9.11.0
+      vitest: 0.31.0_happy-dom@9.16.0
 
   docs:
     specifiers:
@@ -4428,7 +4428,7 @@ packages:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.4.0
+      entities: 4.5.0
     dev: true
 
   /domelementtype/2.3.0:
@@ -4503,8 +4503,8 @@ packages:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
     dev: true
 
-  /entities/4.4.0:
-    resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
+  /entities/4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
     dev: true
 
@@ -5747,11 +5747,11 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom/9.11.0:
-    resolution: {integrity: sha512-wTZP0G+GLKvBtuitHVD/qrjEZQppSxZJ8mp2sF1uEZjXLnruoSgoVvPh/XkZEjG2ZT0aNgz5VYgTYWIs6XQeRQ==}
+  /happy-dom/9.16.0:
+    resolution: {integrity: sha512-goq7grRjIiV2Svb251LWQOo/xm04za2mJ9+assbZJx1KnaVOX1gZBBp4MHbiFNkR6JW7UL81iCtZxCVu+qU5ng==}
     dependencies:
       css.escape: 1.5.1
-      he: 1.2.0
+      entities: 4.5.0
       iconv-lite: 0.6.3
       webidl-conversions: 7.0.0
       whatwg-encoding: 2.0.0
@@ -5811,11 +5811,6 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /he/1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
-    dev: true
-
   /hosted-git-info/2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: true
@@ -5838,7 +5833,7 @@ packages:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       domutils: 3.0.1
-      entities: 4.4.0
+      entities: 4.5.0
     dev: true
 
   /http-cache-semantics/4.1.0:
@@ -9177,7 +9172,7 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.31.0_happy-dom@9.11.0:
+  /vitest/0.31.0_happy-dom@9.16.0:
     resolution: {integrity: sha512-JwWJS9p3GU9GxkG7eBSmr4Q4x4bvVBSswaCFf1PBNHiPx00obfhHRJfgHcnI0ffn+NMlIh9QGvG75FlaIBdKGA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9222,7 +9217,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.11.0
+      happy-dom: 9.16.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
