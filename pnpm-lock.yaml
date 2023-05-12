@@ -20,7 +20,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.2
       '@rollup/plugin-replace': 5.0.2
       '@rollup/plugin-terser': ^0.4.0
-      '@rollup/plugin-typescript': 11.1.0
+      '@rollup/plugin-typescript': 11.1.1
       '@storybook/addons': ^7.0.0
       '@storybook/components': ^7.0.0
       '@storybook/react': ^7.0.0
@@ -78,7 +78,7 @@ importers:
       '@rollup/plugin-node-resolve': 15.0.2_rollup@2.79.1
       '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
       '@rollup/plugin-terser': 0.4.0_rollup@2.79.1
-      '@rollup/plugin-typescript': 11.1.0_y2tepjnxyapuuv4a7alywro34i
+      '@rollup/plugin-typescript': 11.1.1_y2tepjnxyapuuv4a7alywro34i
       '@storybook/addons': 7.0.2_biqbaboplfbrettd7655fr4n2y
       '@storybook/components': 7.0.2_biqbaboplfbrettd7655fr4n2y
       '@storybook/react': 7.0.2_tvrvbu6r5w7oyqiu4bvze3slou
@@ -2541,8 +2541,8 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /@rollup/plugin-typescript/11.1.0_y2tepjnxyapuuv4a7alywro34i:
-    resolution: {integrity: sha512-86flrfE+bSHB69znnTV6kVjkncs2LBMhcTCyxWgRxLyfXfQrxg4UwlAqENnjrrxnSNS/XKCDJCl8EkdFJVHOxw==}
+  /@rollup/plugin-typescript/11.1.1_y2tepjnxyapuuv4a7alywro34i:
+    resolution: {integrity: sha512-Ioir+x5Bejv72Lx2Zbz3/qGg7tvGbxQZALCLoJaGrkNXak/19+vKgKYJYM3i/fJxvsb23I9FuFQ8CUBEfsmBRg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
@@ -2555,7 +2555,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 5.0.2_rollup@2.79.1
-      resolve: 1.22.1
+      resolve: 1.22.2
       rollup: 2.79.1
       tslib: 2.3.1
       typescript: 5.0.4
@@ -4993,7 +4993,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.values: 1.1.5
-      resolve: 1.22.1
+      resolve: 1.22.2
       tsconfig-paths: 3.14.1
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -5026,7 +5026,7 @@ packages:
       ignore: 5.2.0
       is-core-module: 2.11.0
       minimatch: 3.1.2
-      resolve: 1.22.1
+      resolve: 1.22.2
       semver: 6.3.0
     dev: true
 
