@@ -36,7 +36,7 @@ importers:
       esbuild: 0.17.19
       eslint: 8.40.0
       esno: 0.16.3
-      happy-dom: 9.18.3
+      happy-dom: 9.19.2
       husky: 8.0.3
       lint-staged: ^13.1.0
       node-sass: ^8.0.0
@@ -94,7 +94,7 @@ importers:
       esbuild: 0.17.19
       eslint: 8.40.0
       esno: 0.16.3
-      happy-dom: 9.18.3
+      happy-dom: 9.19.2
       husky: 8.0.3
       lint-staged: 13.1.0
       node-sass: 8.0.0
@@ -120,7 +120,7 @@ importers:
       tslib: 2.3.1
       typescript: 5.0.4
       vite: 4.3.8_@types+node@18.11.18
-      vitest: 0.31.1_happy-dom@9.18.3
+      vitest: 0.31.1_happy-dom@9.19.2
 
   docs:
     specifiers:
@@ -5776,8 +5776,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom/9.18.3:
-    resolution: {integrity: sha512-b7iMGYeIXvUryNultA0AHEVU0FPpb2djJ/xSVlMDfP7HG4z7FomdqkCEpWtSv1zDL+t1gRUoBbpqFCoUBvjYtg==}
+  /happy-dom/9.19.2:
+    resolution: {integrity: sha512-WBey64FErn5niCLddcjXxkgDk6burN/5doiJpMUQXpgEG3TUJdbygJV1bzcj1Ey+pz+0QGCZH1pwe24uPW+WnQ==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -9215,7 +9215,7 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.31.1_happy-dom@9.18.3:
+  /vitest/0.31.1_happy-dom@9.19.2:
     resolution: {integrity: sha512-/dOoOgzoFk/5pTvg1E65WVaobknWREN15+HF+0ucudo3dDG/vCZoXTQrjIfEaWvQXmqScwkRodrTbM/ScMpRcQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9260,7 +9260,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.18.3
+      happy-dom: 9.19.2
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
