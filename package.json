@@ -69,7 +69,7 @@
     "happy-dom": "9.19.2",
     "husky": "8.0.3",
     "lint-staged": "^13.1.0",
-    "node-sass": "^8.0.0",
+    "node-sass": "^9.0.0",
     "picocolors": "^1.0.0",
     "pnpm": "7.29.3",
     "postcss": "8.4.23",

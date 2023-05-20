@@ -39,7 +39,7 @@ importers:
       happy-dom: 9.19.2
       husky: 8.0.3
       lint-staged: ^13.1.0
-      node-sass: ^8.0.0
+      node-sass: ^9.0.0
       picocolors: ^1.0.0
       pnpm: 7.29.3
       postcss: 8.4.23
@@ -97,7 +97,7 @@ importers:
       happy-dom: 9.19.2
       husky: 8.0.3
       lint-staged: 13.1.0
-      node-sass: 8.0.0
+      node-sass: 9.0.0
       picocolors: 1.0.0
       pnpm: 7.29.3
       postcss: 8.4.23
@@ -114,7 +114,7 @@ importers:
       rollup-plugin-dts: 5.3.0_vxwo7vqlqcs7hwrek7gmfkalae
       rollup-plugin-esbuild: 5.0.0_yjf356uwxn5o5vyie3hxs7pfxq
       rollup-plugin-postcss: 4.0.2_postcss@8.4.23
-      sass-loader: 13.2.0_node-sass@8.0.0
+      sass-loader: 13.2.0_node-sass@9.0.0
       simple-git-hooks: 2.8.1
       tailwindcss: 3.3.2
       tslib: 2.3.1
@@ -6849,9 +6849,9 @@ packages:
     resolution: {integrity: sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==}
     dev: true
 
-  /node-sass/8.0.0:
-    resolution: {integrity: sha512-jPzqCF2/e6JXw6r3VxfIqYc8tKQdkj5Z/BDATYyG6FL6b/LuYBNFGFVhus0mthcWifHm/JzBpKAd+3eXsWeK/A==}
-    engines: {node: '>=14'}
+  /node-sass/9.0.0:
+    resolution: {integrity: sha512-yltEuuLrfH6M7Pq2gAj5B6Zm7m+gdZoG66wTqG6mIZV/zijq3M2OO2HswtT6oBspPyFhHDcaxWpsBm0fRNDHPg==}
+    engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -8251,7 +8251,7 @@ packages:
       yargs: 17.6.2
     dev: true
 
-  /sass-loader/13.2.0_node-sass@8.0.0:
+  /sass-loader/13.2.0_node-sass@9.0.0:
     resolution: {integrity: sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -8272,7 +8272,7 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      node-sass: 8.0.0
+      node-sass: 9.0.0
     dev: true
 
   /scheduler/0.23.0:
