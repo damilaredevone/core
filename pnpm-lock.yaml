@@ -41,7 +41,7 @@ importers:
       lint-staged: ^13.1.0
       node-sass: ^9.0.0
       picocolors: ^1.0.0
-      pnpm: 7.29.3
+      pnpm: 7.33.2
       postcss: 8.4.24
       postcss-custom-properties: ^13.0.0
       postcss-import: ^15.1.0
@@ -99,7 +99,7 @@ importers:
       lint-staged: 13.1.0
       node-sass: 9.0.0
       picocolors: 1.0.0
-      pnpm: 7.29.3
+      pnpm: 7.33.2
       postcss: 8.4.24
       postcss-custom-properties: 13.1.0_postcss@8.4.24
       postcss-import: 15.1.0_postcss@8.4.24
@@ -7509,8 +7509,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.29.3:
-    resolution: {integrity: sha512-w4tVG3ZV1txgM2bp9/XMmqSYYO3qdhyMVdU8S0zegVvfB6SxNL+nxRq5t7hhw+yc+GrKegyZuIp9aWPhy6NNMA==}
+  /pnpm/7.33.2:
+    resolution: {integrity: sha512-rDTWdW6vMPTI7B01byiA3rZa0tCnoMFwX8oT88R9ouvnBfQ10YZuAffcKln199Sw7Oes0t9TgbA/dFoDb6D1tQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
