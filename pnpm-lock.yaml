@@ -52,8 +52,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0(rollup@2.79.1)
       '@rollup/plugin-typescript':
-        specifier: 11.1.1
-        version: 11.1.1(rollup@2.79.1)(tslib@2.3.1)(typescript@5.1.5)
+        specifier: 11.1.2
+        version: 11.1.2(rollup@2.79.1)(tslib@2.3.1)(typescript@5.1.5)
       '@storybook/addons':
         specifier: ^7.0.0
         version: 7.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -2855,8 +2855,8 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /@rollup/plugin-typescript@11.1.1(rollup@2.79.1)(tslib@2.3.1)(typescript@5.1.5):
-    resolution: {integrity: sha512-Ioir+x5Bejv72Lx2Zbz3/qGg7tvGbxQZALCLoJaGrkNXak/19+vKgKYJYM3i/fJxvsb23I9FuFQ8CUBEfsmBRg==}
+  /@rollup/plugin-typescript@11.1.2(rollup@2.79.1)(tslib@2.3.1)(typescript@5.1.5):
+    resolution: {integrity: sha512-0ghSOCMcA7fl1JM+0gYRf+Q/HWyg+zg7/gDSc+fRLmlJWcW5K1I+CLRzaRhXf4Y3DRyPnnDo4M2ktw+a6JcDEg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
