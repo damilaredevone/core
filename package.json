@@ -64,7 +64,7 @@
     "babel-preset-react-app": "^10.0.1",
     "bumpp": "9.1.1",
     "esbuild": "0.18.17",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "esno": "0.17.0",
     "happy-dom": "10.5.2",
     "husky": "8.0.3",
