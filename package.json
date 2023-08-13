@@ -68,7 +68,7 @@
     "esno": "0.17.0",
     "happy-dom": "10.9.0",
     "husky": "8.0.3",
-    "lint-staged": "^13.1.0",
+    "lint-staged": "^14.0.0",
     "node-sass": "^9.0.0",
     "picocolors": "^1.0.0",
     "pnpm": "8.6.5",
