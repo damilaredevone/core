@@ -151,8 +151,8 @@ importers:
         specifier: ^3.4.0
         version: 3.4.0
       rollup-plugin-dts:
-        specifier: 6.0.0
-        version: 6.0.0(rollup@2.79.1)(typescript@5.2.2)
+        specifier: 6.0.1
+        version: 6.0.1(rollup@2.79.1)(typescript@5.2.2)
       rollup-plugin-esbuild:
         specifier: 5.0.0
         version: 5.0.0(esbuild@0.19.2)(rollup@2.79.1)
@@ -3805,7 +3805,7 @@ packages:
   /@vitest/snapshot@0.34.3:
     resolution: {integrity: sha512-QyPaE15DQwbnIBp/yNJ8lbvXTZxS00kRly0kfFgAD5EYmCbYcA+1EEyRalc93M0gosL/xHeg3lKAClIXYpmUiQ==}
     dependencies:
-      magic-string: 0.30.2
+      magic-string: 0.30.3
       pathe: 1.1.1
       pretty-format: 29.5.0
     dev: true
@@ -7248,6 +7248,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
+  /magic-string@0.30.3:
+    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
+
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
@@ -8882,14 +8889,14 @@ packages:
       is-plain-object: 3.0.1
     dev: true
 
-  /rollup-plugin-dts@6.0.0(rollup@2.79.1)(typescript@5.2.2):
-    resolution: {integrity: sha512-A996xSZDAqnx/KfFttzC8mDEuyMjsRpiLCrlGc8effhK8KhE3AG0g1woQiITgFc5HSE8HWU7ccR9CiQ3vXgUlQ==}
-    engines: {node: '>=v18.17.1'}
+  /rollup-plugin-dts@6.0.1(rollup@2.79.1)(typescript@5.2.2):
+    resolution: {integrity: sha512-XJbCldVrp4TLc2Hg4DfrRiJgzJ73uhZB0sPSDizgdlrhSJ1bsIkkRMkwRKNQYgkbfMz4CHLdbnFKVivHE0vsPA==}
+    engines: {node: '>=16'}
     peerDependencies:
-      rollup: ^3.25.0
+      rollup: ^3.25
       typescript: ^4.5 || ^5.0
     dependencies:
-      magic-string: 0.30.2
+      magic-string: 0.30.3
       rollup: 2.79.1
       typescript: 5.2.2
     optionalDependencies:
