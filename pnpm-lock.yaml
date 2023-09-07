@@ -100,8 +100,8 @@ importers:
         specifier: 0.17.0
         version: 0.17.0
       happy-dom:
-        specifier: 11.0.1
-        version: 11.0.1
+        specifier: 11.0.2
+        version: 11.0.2
       husky:
         specifier: 8.0.3
         version: 8.0.3
@@ -179,7 +179,7 @@ importers:
         version: 4.4.9(@types/node@18.11.18)
       vitest:
         specifier: 0.34.3
-        version: 0.34.3(happy-dom@11.0.1)
+        version: 0.34.3(happy-dom@11.0.2)
 
   docs:
     devDependencies:
@@ -6490,8 +6490,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@11.0.1:
-    resolution: {integrity: sha512-3U3kXpTbHQoCxItf5VhdHSSeX7ZKekcEx6hBZ5Ug12MeEASL89upfz6Nefv7pwTc5jWsXPHlVInjB1gID0HkwQ==}
+  /happy-dom@11.0.2:
+    resolution: {integrity: sha512-0yyYIBCByZVgWNuM+/tXXaAR+YUjsoXmzDisQ/KPI7Dt9kXtsPUOU6JAc/isVxridmeSb9/icthsaAhUBKJa4g==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -9977,7 +9977,7 @@ packages:
       - terser
     dev: true
 
-  /vitest@0.34.3(happy-dom@11.0.1):
+  /vitest@0.34.3(happy-dom@11.0.2):
     resolution: {integrity: sha512-7+VA5Iw4S3USYk+qwPxHl8plCMhA5rtfwMjgoQXMT7rO5ldWcdsdo3U1QD289JgglGK4WeOzgoLTsGFu6VISyQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -10021,7 +10021,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 11.0.1
+      happy-dom: 11.0.2
       local-pkg: 0.4.3
       magic-string: 0.30.2
       pathe: 1.1.1
