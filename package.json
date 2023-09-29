@@ -72,7 +72,7 @@
     "node-sass": "^9.0.0",
     "picocolors": "^1.0.0",
     "pnpm": "8.6.5",
-    "postcss": "8.4.30",
+    "postcss": "8.4.31",
     "postcss-custom-properties": "^13.0.0",
     "postcss-import": "^15.1.0",
     "postcss-loader": "^7.0.2",
