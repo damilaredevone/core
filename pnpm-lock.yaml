@@ -31,8 +31,8 @@ importers:
         specifier: 1.5.2
         version: 1.5.2
       '@rollup/plugin-alias':
-        specifier: 5.0.0
-        version: 5.0.0(rollup@2.79.1)
+        specifier: 5.0.1
+        version: 5.0.1(rollup@2.79.1)
       '@rollup/plugin-babel':
         specifier: ^6.0.3
         version: 6.0.3(@babel/core@7.20.12)(rollup@2.79.1)
@@ -2970,11 +2970,11 @@ packages:
     dev: true
     optional: true
 
-  /@rollup/plugin-alias@5.0.0(rollup@2.79.1):
-    resolution: {integrity: sha512-l9hY5chSCjuFRPsnRm16twWBiSApl2uYFLsepQYwtBuAxNMQ/1dJqADld40P0Jkqm65GRTLy/AC6hnpVebtLsA==}
+  /@rollup/plugin-alias@5.0.1(rollup@2.79.1):
+    resolution: {integrity: sha512-JObvbWdOHoMy9W7SU0lvGhDtWq9PllP5mjpAy+TUslZG/WzOId9u80Hsqq1vCUn9pFJ0cxpdcnAv+QzU2zFH3Q==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
