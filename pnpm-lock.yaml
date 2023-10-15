@@ -37,8 +37,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3(@babel/core@7.20.12)(rollup@2.79.1)
       '@rollup/plugin-commonjs':
-        specifier: 25.0.5
-        version: 25.0.5(rollup@2.79.1)
+        specifier: 25.0.7
+        version: 25.0.7(rollup@2.79.1)
       '@rollup/plugin-json':
         specifier: 6.0.1
         version: 6.0.1(rollup@2.79.1)
@@ -3002,8 +3002,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-commonjs@25.0.5(rollup@2.79.1):
-    resolution: {integrity: sha512-xY8r/A9oisSeSuLCTfhssyDjo9Vp/eDiRLXkg1MXCcEEgEjPmLU+ZyDB20OOD0NlyDa/8SGbK5uIggF5XTx77w==}
+  /@rollup/plugin-commonjs@25.0.7(rollup@2.79.1):
+    resolution: {integrity: sha512-nEvcR+LRjEjsaSsc4x3XZfCCvZIaSMenZu/OiwOKGN2UhQpAYI7ru7czFvyWbErlpoGjnSX3D5Ch5FcMA3kRWQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -3011,12 +3011,12 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.4(rollup@2.79.1)
+      '@rollup/pluginutils': 5.0.5(rollup@2.79.1)
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
-      magic-string: 0.27.0
+      magic-string: 0.30.4
       rollup: 2.79.1
     dev: true
 
