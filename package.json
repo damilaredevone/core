@@ -2,7 +2,7 @@
   "name": "@damilaredev/core",
   "version": "0.0.0",
   "description": "",
-  "packageManager": "pnpm@8.6.5",
+  "packageManager": "pnpm@8.11.0",
   "type": "module",
   "scripts": {
     "docs": "pnpm -C docs run dev",
@@ -71,7 +71,7 @@
     "lint-staged": "^15.0.0",
     "node-sass": "^9.0.0",
     "picocolors": "^1.0.0",
-    "pnpm": "8.6.5",
+    "pnpm": "8.11.0",
     "postcss": "8.4.31",
     "postcss-custom-properties": "^13.0.0",
     "postcss-import": "^15.1.0",
